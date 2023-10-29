@@ -5,44 +5,79 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kelo</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
         
-        <header class="header">    
-            <div>
-                <a href="./index.html">
-                    <img class="logoKelo" src="../assets/img/TKL en blanco.png" alt="logo de Kelo">
-                </a>
-            </div>        
+        <header>
+            <div class="container-fluid">
+                <a class="logoKelo" href="../index.html">
+                    <img src="../assets/img/TKLenblanco.png" alt="logo de Kelo">
+                </a>           
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa tempore a perferendis nam aliquid, reprehenderit tenetur obcaecati architecto sunt ratione suscipit magnam officiis</p>
-            <nav class="navegacionPrincipal">
-                <ul class="listaNav">
-                    <li><a class="linkNav" href="../index.html">Inicio</a>
-                    <li><a class="linkNav" href="../pages/productos.html">Productos</a></li>
-                    <li><a class="linkNav" href="../pages/colecciones.html">Colecciones</a></li>
-                    <li><a class="linkNav" href="../pages/eventos.html">Eventos</a></li>
-                    <li><a class="linkNav" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+            </div>
+            <div class="navPropia">
+                <nav class="navClase">
+                    <ul class="nav">
+                    <li><a class="navPropia" href="../index.html">Inicio</a></li>
+                    <li><a class="navPropia" href="./productos.html">Productos</a></li>
+                    <li><a class="navPropia" href="./colecciones.html">Colecciones</a></li>
+                    <li><a class="navPropia" href="./eventos.html">Eventos</a></li>
+                    <li><a class="navPropia" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <section>
-            <a class="centrado" href="./index.html">
-                <img class="logoKeloLetras" src="../assets/img/Kelo logo letras.png">
+    
+        <section class="sectionLogo">
+            <a href="../index.html">
+                <img class="logoKeloLetras" src="../assets/img/Kelologoletras.png">
             </a>
-        </section>        
+        </section>
+        <div class="separacion"></div>        
         <main>
-            <!--Aca van las colecciones que sacaria la marca de ropa por fecha, epoca, edición y demas-->            
+            <h2 class="text-center">Nuestras Colecciones</h1>
+            <div class="separacionDos"></div>   
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3 col-sm-3">
+                        <img src="../assets/img/fotoplayacolecciones.jpg" alt="Foto de playa" height="300px" class="img-fluid">
+                    </div>
+                    
+                    <p class="col-3 text-center align-self-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam optio quis rem sit obcaecati labore commodi, distinctio, nemo a autem non perferendis. Consectetur sed, et minus iure assumenda veritatis nostrum.</p>
+                    <div class="col-3 col-sm-3">
+                        <img src="../assets/img/fotomontañacolecciones.jpg" alt="Foto de montaña" height="300px" class="img-fluid align-self-center">
+                    </div>
+                    
+                    <p class="col-3 text-center align-self-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam optio quis rem sit obcaecati labore commodi, distinctio, nemo a autem non perferendis. Consectetur sed, et minus iure assumenda veritatis nostrum.</p>
+                  <div class="w-100"></div>
+                  <div class="col-3 col-sm-3">
+                    <img src="../assets/img/fotoartistacolecciones.jpg" alt="Foto de artista" height="300px" class="img-fluid mt-4">
+                </div>
+                
+                <p class="col-3 text-center align-self-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam optio quis rem sit obcaecati labore commodi, distinctio, nemo a autem non perferendis. Consectetur sed, et minus iure assumenda veritatis nostrum.</p>
+                <div class="col-3 col-sm-3">
+                    <img src="../assets/img/fotomontaña2colecciones.png" alt="Foto de montaña" height="300px" class="img-fluid mt-4">
+                </div>
+                
+                <p class="col-3 text-center align-self-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam optio quis rem sit obcaecati labore commodi, distinctio, nemo a autem non perferendis. Consectetur sed, et minus iure assumenda veritatis nostrum.</p>
+                </div>
+              </div>           
         </main>        
         <footer>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, id. Quam sit reprehenderit voluptatibus nisi nesciunt natus quasi distinctio deserunt dolorum esse. Praesentium modi officiis saepe laudantium optio, ea corrupti.</p>
-            <nav>
-                <a class="anclasTitulo" href="./eventos.html">Eventos</a>
-                <a class="anclasTitulo" href="./productos.html">Trabajos</a>
-                <a class="anclasTitulo" href="./contacto.html">Contáctanos</a>
-            </nav>
+            <div class="separacionDos mt-3"></div>
+                <div class="row">
+                    <nav class="text-center">
+                        <a class="navPropia" href="./pages/eventos.html">Eventos</a>
+                        <a class="navPropia" href="./pages/productos.html">Trabajos</a>
+                        <a class="navPropia" href="./pages/contacto.html">Contáctanos</a>
+                        <a href="./pages/contacto.html">
+                        <img class="rounded float-end align-self-start" src="../assets/img/Whatsappicono.png" alt="WhatsApp Logo" id="logo-whatsapp" height="32px" width="32px">
+                        </a>
+                    </nav>
+                </div>
         </footer>
-        
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
