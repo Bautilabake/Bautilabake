@@ -114,3 +114,19 @@ footer iframe{
 footer a:hover{
     color: rgb(206, 202, 202);
 }
+/*Contacto*/
+.formulario{
+    height: auto;
+    width: 45%;
+    border-radius: 21px 21px 21px 21px;
+    -webkit-border-radius: 21px 21px 21px 21px;
+    -moz-border-radius: 21px 21px 21px 21px;
+    background: rgb(43, 24, 13);
+    border: 3px solid #ffffff;
+}
+.imgContacto{
+    height: 25px;
+    width: auto;
+    border-radius: 0%;
+    border: none;
+}
